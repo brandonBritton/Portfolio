@@ -3,12 +3,16 @@ import logo from '../assets/logo.svg';
 const Nav = () => {
 
     return (
-        <nav>
-            <div>
-                <img src={ logo } alt='logo' />
-                <p>
-                    Brandon.
-                </p>
+        <nav className='nav'>
+            <div className='brand'>
+                <a href='/'><img src={ logo } alt='logo' /></a>
+            </div>
+            <div className='menu'>
+                <ul>
+                    <li><a href='about'>about</a></li>
+                    <li><a href='projects'>projects</a></li>
+                    <li><a href='contact'>contact</a></li>
+                </ul>
             </div>
         </nav>
     );
