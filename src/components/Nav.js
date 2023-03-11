@@ -10,8 +10,9 @@ const Nav = () => {
             <div className='menu'>
                 <ul>
                     <li><a href='about'>about</a></li>
-                    <li><a href='projects'>projects</a></li>
+                    <li><a href='projects'>experience</a></li>
                     <li><a href='contact'>contact</a></li>
+                    <li><a href='contact'>o</a></li>
                 </ul>
             </div>
         </nav>
