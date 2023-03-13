@@ -2,28 +2,27 @@
 
 .App {
   text-align: center;
-  background-color: #fff;
-  min-height: 100vh;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
-}
-
-.App-header {
-  color: white;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(180deg, #FFF9F2 0%, #F5ECE3 60.4%, #ECE0D7 80.36%, #E3D5CA 100.85%);
 }
 
 .nav {
-  height: 60px;
-  width: 100vw;
+  padding-left: 9%;
+  padding-right: 9%;
   display: flex;
   align-items: center;
   position: relative;
-  padding: 0.5rem 0rem;
-  background-color: #fff;
-  color: black;
-  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
-  font-family: 'Michroma', sans-serif;
-  text-decoration: none;
+
+
+  font-family: 'Michroma';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+
+  color: #000000;
 }
 
 .menu {
