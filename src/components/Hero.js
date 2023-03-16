@@ -1,7 +1,12 @@
+import './Hero.css';
+
 const Hero = () => {
 
     return (
-        <div>
+        <div className="container">
+            <div className="card">
+                <div className="card-content"></div>
+            </div>
             <div>
                 {/* some graphic for hero section */}
             </div>
