@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'PRSNT wip077';
+  src: url('https://uploads-ssl.webflow.com/5ebbff716291d6efdacb32e2/6261b185548290ef5125a8c3_PRSNTWIP077-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
     --border: rgb(3, 169, 244);
     
@@ -5,6 +13,10 @@
     --g2: rgb(236, 64, 122);
     --g3: rgb(253, 216, 53);
   }
+
+.test {
+  font-family: 'PRSNT wip077',sans-serif;
+}
   
   .container {
     background-color: rgb(10, 10, 10);

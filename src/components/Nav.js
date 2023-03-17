@@ -1,4 +1,5 @@
 import logo from '../assets/logo.svg';
+import theme from '../assets/theme-button.svg';
 
 const Nav = () => {
 
@@ -12,7 +13,7 @@ const Nav = () => {
                     <li><a href='about'>about</a></li>
                     <li><a href='projects'>experience</a></li>
                     <li><a href='contact'>contact</a></li>
-                    <li><a href='contact'>o</a></li>
+                    <li><a href='/'><img src={ theme } alt='theme' /></a></li>
                 </ul>
             </div>
         </nav>
