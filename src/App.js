@@ -1,5 +1,5 @@
-import Nav from './components/Nav';
-import Hero from './components/Hero';
+import Nav from './components/Navbar/Nav';
+import { Hero } from '@pages/Hero'
 import './App.css';
 
 function App() {

@@ -1,5 +1,5 @@
-import logo from '../assets/logo.svg';
-import theme from '../assets/theme-button.svg';
+import logo from '@assets/logo.svg';
+import theme from '@assets/theme-button.svg';
 
 const Nav = () => {
 
