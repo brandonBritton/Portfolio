@@ -1,4 +1,4 @@
-import Nav from 'components/navbar/Nav';
+import Nav from 'components/Nav';
 import Hero from 'pages/Hero';
 import 'App.css';
 
