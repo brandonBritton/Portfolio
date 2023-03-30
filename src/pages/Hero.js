@@ -12,7 +12,7 @@ const Hero = () => {
         //     </div>
             <div className='test'>
                 <h1>Hi there!</h1>
-                <h2>I’m Brandon,</h2> 
+                <h2>I’m Brandon Britton</h2> 
                 <h3>full-stack software developer</h3>
                 <p>
                     I’m a software engineer specializing in building
