@@ -1,8 +1,12 @@
 import logo from 'assets/logo.svg';
-import themeButton from 'assets/theme-button.svg';
-import 'styles/Nav.css';
+import { ReactComponent as ThemeButton } from 'assets/theme-button.svg';
+import 'styles/Nav.scss';
 
 const Nav = () => {
+
+    const showEvent = message => {
+        console.log('theme click');
+    };
 
     return (
         <nav className='nav'>
@@ -14,7 +18,7 @@ const Nav = () => {
                     <li><a href='about'>about</a></li>
                     <li><a href='projects'>experience</a></li>
                     <li><a href='contact'>contact</a></li>
-                    <li><a href='/'><img src={ themeButton } alt='theme' /></a></li>
+                    <li><ThemeButton onClick={showEvent}/></li>
                 </ul>
             </div>
         </nav>
