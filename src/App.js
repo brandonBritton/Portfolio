@@ -1,19 +1,20 @@
-import { useState } from 'react';
-import Nav from 'components/Nav';
-import Hero from 'pages/Hero';
-import 'App.scss';
+import { useState } from "react";
+import path from "pages/paths";
+import "App.scss";
 
 function App() {
 
-  const [theme, setTheme] = useState("light");
+  	const [theme, setTheme] = useState("light");
   
-  
-  return (
-    <div className="App" data-theme={ theme }>
-       <Nav />
-      <Hero />
-    </div>     
-  );
+  	return (
+    	<div className="App" data-theme={ theme }>
+			<path.nav />
+			<path.hero />
+			<path.about />
+			<path.experience />
+			<path.contact />
+    	</div>     
+  	);
 }
 
 export default App;

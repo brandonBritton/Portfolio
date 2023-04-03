@@ -21,17 +21,12 @@
 
   .menu li {
     list-style-type: none;
-    margin: 0 1rem;
+    margin: 0 3rem;
   }
 
   .menu li a {
-    color: rgba(0, 0, 0, 0.8);
+    color: var(--primary-text-colour);
     text-decoration: none;
     display: block;
     width: 100%;
-  }
-
-  .themeButton {
-    appearance: none;
-    background-image: '../assets/theme-button.svg';
   }

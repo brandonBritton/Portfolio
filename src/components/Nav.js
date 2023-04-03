@@ -1,5 +1,5 @@
 import logo from 'assets/logo.svg';
-import { ReactComponent as ThemeButton } from 'assets/theme-button.svg';
+import { ReactComponent as ThemeButton } from 'assets/theme-button-light.svg';
 import 'styles/Nav.scss';
 
 const Nav = () => {
