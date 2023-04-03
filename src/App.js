@@ -1,13 +1,10 @@
-import { useState } from "react";
 import path from "pages/paths";
 import "App.scss";
 
 function App() {
-
-  	const [theme, setTheme] = useState("light");
   
   	return (
-    	<div className="App" data-theme={ theme }>
+    	<div id="app" className="App" data-theme="">
 			<path.nav />
 			<path.hero />
 			<path.about />

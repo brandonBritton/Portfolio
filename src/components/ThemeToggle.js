@@ -1,16 +1,30 @@
-import { useState } from "react";
-import { ReactComponent as Icon } from "assets/theme-button.svg";
+import ThemeButton from "assets/theme-button-light.svg";
 
 const ThemeToggle = () => {
 
-    const [theme, setTheme] = useState("light");
-    const toggleTheme = (curr) => {
-        
-    }
+    const defaultTheme = localStorage.getItem("theme") || (window.matchMedia("(prefers-color-scheme: dark").matches ? "dark" : "light");
+    if (defaultTheme) document.documentElement.setAttribute("data-theme", defaultTheme);
+
+    const toggle = () => {
+        let currentTheme = document.documentElement.getAttribute("data-theme");
+        let targetTheme = "light";
+    
+        if (currentTheme === "light") {
+            targetTheme = "dark";
+        }
+    
+        document.documentElement.setAttribute('data-theme', targetTheme)
+        localStorage.setItem('theme', targetTheme);
+    };
 
     return (
         <div>
-            <Icon />
+            <img 
+                className="theme"
+                src={ThemeButton} 
+                alt="Change theme"
+                onClick={toggle}
+            />
         </div>
     );
 };
