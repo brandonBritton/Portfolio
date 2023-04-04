@@ -4,8 +4,8 @@ const Hero = () => {
 
     return (
             <div className="card">
-                <h1>Hi there!</h1>
-                <h2>I’m Brandon Britton</h2> 
+                <h1>Hi there!<span class="wave">👋🏾</span></h1>
+                <h2>I’m Brandon Britton</h2>
                 <h3>full-stack software developer</h3>
                 <p>
                     I’m a software engineer specializing in building
