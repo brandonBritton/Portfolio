@@ -1,15 +1,23 @@
 import path from "pages/paths";
-import "App.scss";
+import Section from "components/section/Section";
+import styles from "App.module.scss";
 
 function App() {
-  
+	
+	//fix content component mapping!
+	const SectionComponents = path.map(item => 
+		<Section content={<item />} />
+	);
+
   	return (
-    	<div className="App" data-theme="">
+    	<div className={styles.App} data-theme="">
 			<path.nav />
-			<path.hero />
+			<SectionComponents/>
+			{/* <path.hero />
 			<path.about />
 			<path.experience />
-			<path.contact />
+			<path.contact /> */}
+			{/* <Section content={ <path.hero /> } /> */}
     	</div>     
   	);
 }
