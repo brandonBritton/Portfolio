@@ -4,12 +4,12 @@ import Experience from "pages/experience/Experience";
 import Hero from "pages/hero/Hero";
 import Nav from "components/nav/Nav";
 
-const path = [
-    About,
-    Contact,
-    Experience,
-    Hero,
-    Nav
-];
+const path = {
+    about: About,
+    contact: Contact,
+    experience: Experience,
+    hero: Hero,
+    nav: Nav
+};
 
 export default path;
