@@ -5,19 +5,15 @@ import styles from "App.module.scss";
 function App() {
 	
 	//fix content component mapping!
-	const SectionComponents = path.map(item => 
-		<Section content={<item />} />
-	);
+
 
   	return (
     	<div className={styles.App} data-theme="">
 			<path.nav />
-			<SectionComponents/>
-			{/* <path.hero />
-			<path.about />
-			<path.experience />
-			<path.contact /> */}
-			{/* <Section content={ <path.hero /> } /> */}
+			<Section content={ <path.hero /> } />
+			<Section content={ <path.about /> } />
+			<Section content={ <path.experience /> } />
+			<Section content={ <path.contact /> } />
     	</div>     
   	);
 }
