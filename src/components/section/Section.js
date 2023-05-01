@@ -1,9 +1,9 @@
 import styles from "./Section.module.scss";
 
-export default function Section({ content }) {
+export default function Section(props) {
     return (
-        <div className={styles.section}>
-            { content }
+        <div className={`${styles.section}`}>
+            { props.content }
         </div>
     );
 };

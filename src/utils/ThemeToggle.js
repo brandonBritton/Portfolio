@@ -3,6 +3,7 @@ import ThemeButton from "assets/theme-button-light.svg";
 const ThemeToggle = () => {
 
     const defaultTheme = localStorage.getItem("theme") || (window.matchMedia("(prefers-color-scheme: dark").matches ? "dark" : "light");
+    
     if (defaultTheme) document.documentElement.setAttribute("data-theme", defaultTheme);
 
     const toggle = () => {
