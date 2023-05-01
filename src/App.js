@@ -1,5 +1,5 @@
-import path from "pages/paths";
-import Section from "components/section/Section";
+import path from "utils/paths";
+import Layout from "components/Layout";
 import styles from "App.module.scss";
 
 function App() {
@@ -7,10 +7,10 @@ function App() {
   	return (
     	<div className={styles.App} data-theme="">
 			<path.nav />
-			<Section content={ <path.hero /> }/>
-			{/* <Section content={ <path.about /> } />
-			<Section content={ <path.experience /> } />
-			<Section content={ <path.contact /> } /> */}
+			<Layout content={ <path.hero /> }/>
+			<Layout content={ <path.about /> } />
+			<Layout content={ <path.experience /> } />
+			<Layout content={ <path.contact /> } />
     	</div>     
   	);
 }
