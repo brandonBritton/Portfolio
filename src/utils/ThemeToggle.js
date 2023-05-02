@@ -1,33 +1,37 @@
 import ThemeButton from "components/icons/theme-button-light.svg";
 
 const ThemeToggle = () => {
+  const defaultTheme =
+    localStorage.getItem("theme") ||
+    (window.matchMedia("(prefers-color-scheme: dark").matches
+      ? "dark"
+      : "light");
 
-    const defaultTheme = localStorage.getItem("theme") || (window.matchMedia("(prefers-color-scheme: dark").matches ? "dark" : "light");
-    
-    if (defaultTheme) document.documentElement.setAttribute("data-theme", defaultTheme);
+  if (defaultTheme)
+    document.documentElement.setAttribute("data-theme", defaultTheme);
 
-    const toggle = () => {
-        let currentTheme = document.documentElement.getAttribute("data-theme");
-        let targetTheme = "light";
-    
-        if (currentTheme === "light") {
-            targetTheme = "dark";
-        }
-    
-        document.documentElement.setAttribute('data-theme', targetTheme)
-        localStorage.setItem('theme', targetTheme);
-    };
+  const toggle = () => {
+    let currentTheme = document.documentElement.getAttribute("data-theme");
+    let targetTheme = "light";
 
-    return (
-        <div>
-            <img 
-                className="theme"
-                src={ThemeButton} 
-                alt="Change theme"
-                onClick={toggle}
-            />
-        </div>
-    );
+    if (currentTheme === "light") {
+      targetTheme = "dark";
+    }
+
+    document.documentElement.setAttribute("data-theme", targetTheme);
+    localStorage.setItem("theme", targetTheme);
+  };
+
+  return (
+    <div>
+      <img
+        className="theme"
+        src={ThemeButton}
+        alt="Change theme"
+        onClick={toggle}
+      />
+    </div>
+  );
 };
 
 export default ThemeToggle;

@@ -1,58 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Michroma&family=Montserrat&display=swap");
 
 @font-face {
-  font-family: 'PRSNT WIP077';
-  src: url('../fonts/PRSNTWIP077-Heavy.eot');
-  src: local('PRSNT WIP077 Heavy'), local('PRSNTWIP077-Heavy'),
-      url('../fonts/PRSNTWIP077-Heavy.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/PRSNTWIP077-Heavy.woff2') format('woff2'),
-      url('../fonts/PRSNTWIP077-Heavy.woff') format('woff'),
-      url('../fonts/PRSNTWIP077-Heavy.ttf') format('truetype');
+  font-family: "PRSNT WIP077";
+  src: url("../fonts/PRSNTWIP077-Heavy.eot");
+  src: local("PRSNT WIP077 Heavy"), local("PRSNTWIP077-Heavy"),
+    url("../fonts/PRSNTWIP077-Heavy.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/PRSNTWIP077-Heavy.woff2") format("woff2"),
+    url("../fonts/PRSNTWIP077-Heavy.woff") format("woff"),
+    url("../fonts/PRSNTWIP077-Heavy.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'PRSNT WIP077';
-  src: url('../fonts/PRSNTWIP077-Regular.eot');
-  src: local('PRSNT WIP077 Regular'), local('PRSNTWIP077-Regular'),
-      url('../fonts/PRSNTWIP077-Regular.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/PRSNTWIP077-Regular.woff2') format('woff2'),
-      url('../fonts/PRSNTWIP077-Regular.woff') format('woff'),
-      url('../fonts/PRSNTWIP077-Regular.ttf') format('truetype');
+  font-family: "PRSNT WIP077";
+  src: url("../fonts/PRSNTWIP077-Regular.eot");
+  src: local("PRSNT WIP077 Regular"), local("PRSNTWIP077-Regular"),
+    url("../fonts/PRSNTWIP077-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/PRSNTWIP077-Regular.woff2") format("woff2"),
+    url("../fonts/PRSNTWIP077-Regular.woff") format("woff"),
+    url("../fonts/PRSNTWIP077-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'PRSNT WIP077';
-  src: url('../fonts/PRSNTWIP077-Bold.eot');
-  src: local('PRSNT WIP077 Bold'), local('PRSNTWIP077-Bold'),
-      url('../fonts/PRSNTWIP077-Bold.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/PRSNTWIP077-Bold.woff2') format('woff2'),
-      url('../fonts/PRSNTWIP077-Bold.woff') format('woff'),
-      url('../fonts/PRSNTWIP077-Bold.ttf') format('truetype');
+  font-family: "PRSNT WIP077";
+  src: url("../fonts/PRSNTWIP077-Bold.eot");
+  src: local("PRSNT WIP077 Bold"), local("PRSNTWIP077-Bold"),
+    url("../fonts/PRSNTWIP077-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/PRSNTWIP077-Bold.woff2") format("woff2"),
+    url("../fonts/PRSNTWIP077-Bold.woff") format("woff"),
+    url("../fonts/PRSNTWIP077-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'PRSNT WIP077';
-  src: url('../fonts/PRSNTWIP077-Medium.eot');
-  src: local('PRSNT WIP077 Medium'), local('PRSNTWIP077-Medium'),
-      url('../fonts/PRSNTWIP077-Medium.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/PRSNTWIP077-Medium.woff2') format('woff2'),
-      url('../fonts/PRSNTWIP077-Medium.woff') format('woff'),
-      url('../fonts/PRSNTWIP077-Medium.ttf') format('truetype');
+  font-family: "PRSNT WIP077";
+  src: url("../fonts/PRSNTWIP077-Medium.eot");
+  src: local("PRSNT WIP077 Medium"), local("PRSNTWIP077-Medium"),
+    url("../fonts/PRSNTWIP077-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/PRSNTWIP077-Medium.woff2") format("woff2"),
+    url("../fonts/PRSNTWIP077-Medium.woff") format("woff"),
+    url("../fonts/PRSNTWIP077-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
-
-
 
 .App {
   text-align: center;
@@ -62,7 +60,7 @@
 }
 
 h1 {
-  font-family: 'PRSNT WIP077';
+  font-family: "PRSNT WIP077";
   font-style: normal;
   font-weight: 500;
   font-size: 5.5rem;
@@ -72,8 +70,9 @@ h1 {
   margin: 0;
 }
 
-h2, h3 {
-  font-family: 'Michroma', sans-serif;
+h2,
+h3 {
+  font-family: "Michroma", sans-serif;
   font-style: normal;
   margin: 0;
 }
@@ -90,7 +89,7 @@ h3 {
 }
 
 p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
