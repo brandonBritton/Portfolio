@@ -1,4 +1,5 @@
 module.exports = {
+    
     email: "brandonbritton.dev@gmail.com",
 
     socials: [
@@ -14,16 +15,16 @@ module.exports = {
 
     navLinks: [
         {
-            name: 'About',
-            url: '/#about',
+            name: "about",
+            url: "/#about",
         },
         {
-            name: 'Experience',
-            url: '/#experience',
+            name: "experience",
+            url: "/#experience",
         },
         {
-            name: 'Contact',
-            url: '/#contact',
+            name: "contact",
+            url: "/#contact",
         },
     ]
 };
