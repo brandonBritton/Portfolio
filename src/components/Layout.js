@@ -1,4 +1,4 @@
-import styles from "./Layout.module.scss";
+import styles from "styles/Layout.module.scss";
 
 const Layout = (props) => {
     return (

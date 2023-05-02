@@ -1,13 +1,7 @@
-import styles from "./Hero.module.scss";
+import styles from "styles/Hero.module.scss";
 import wave from "assets/waving-hand.png";
-import Button from "components/Button";
 
 const Hero = () => {
-
-    const style = {
-        color: "red",
-        background: "green"
-    }
 
     return (
         <div className={styles.card}>
@@ -19,7 +13,6 @@ const Hero = () => {
                 (and occasionally designing) exceptional digital experiences. Currently,
                 I’m focused on building accessible, human-centered products.
             </p> 
-            <Button styles={style}/>
         </div>
     );
 };

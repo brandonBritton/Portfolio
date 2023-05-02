@@ -1,4 +1,4 @@
-import ThemeButton from "assets/theme-button-light.svg";
+import ThemeButton from "components/icons/theme-button-light.svg";
 
 const ThemeToggle = () => {
 

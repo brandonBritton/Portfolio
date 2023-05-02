@@ -1,6 +1,6 @@
-import logo from "assets/logo.svg";
+import logo from "./icons/logo.svg";
 import ThemeToggle from "utils/ThemeToggle";
-import styles from "./Nav.module.scss";
+import styles from "styles/Nav.module.scss";
 
 const Nav = () => {
 
