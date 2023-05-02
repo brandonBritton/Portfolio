@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 const Footer = () => {
+    
     const [gitHubInfo, setGitHubInfo] = useState({
         stars: null,
         forks: null
@@ -22,7 +23,7 @@ const Footer = () => {
     return (
         <div>
             <a href="https://github.com/brandonBritton/portfolio">
-                <div>Designed &amp; Built by Brandon Britton</div>
+                <div>Designed &amp; Built by Brandon Britton 🤟</div>
                 
                 {gitHubInfo.stars && gitHubInfo.forks && (
                     <div>
