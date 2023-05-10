@@ -49,5 +49,53 @@
 }
 
 .card {
-  align-items: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #fdbf80;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 50%;
+  background-color: #93cd7e;
+}
+
+// Blobs
+
+.blobcont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  //z-index: -2;
+  position: relative;
+  background-color: #839fe4;
+}
+
+.blob {
+  border-radius: 100%;
+}
+
+.red {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  top: 200px;
+  left: -100px;
+}
+
+.green {
+  background-color: green;
+  height: 100px;
+  width: 100px;
+}
+
+.blue {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
 }
